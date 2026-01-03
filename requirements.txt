@@ -1,0 +1,21 @@
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# LLM & Embeddings
+openai==1.10.0
+langchain==0.1.6
+langchain-openai==0.0.5
+langchain-community==0.0.20
+
+# Vector Store
+faiss-cpu==1.7.4
+
+# Optional: Azure Blob Storage
+azure-storage-blob==12.19.0
+
+# Utilities
+python-dotenv==1.0.0
+python-multipart==0.0.6
